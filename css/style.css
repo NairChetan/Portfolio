@@ -8822,12 +8822,15 @@ h1, h2, h3, h4, h5,
     font-size: 26px;
     color: #ffbd39; }
   .resume-wrap h2 {
-    font-size: 26px; }
+    font-size: 26px;
+    text-transform: uppercase ;
+   }
   .resume-wrap .position {
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 3px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+   }
 
 .services-1 {
   margin-bottom: 40px;
@@ -9193,10 +9196,7 @@ textarea.form-control {
     -webkit-box-shadow: 0 0 0 0 rgba(255, 189, 57, 0);
     box-shadow: 0 0 0 0 rgba(255, 189, 57, 0); } }
 
-.big-4 {
-  font-size: 42px;
-  margin: 0 auto;
-  transform: scaleX(1.2); /* Stretch the text by 1.2 times */ }
+
 
 .heading-section {
   position: relative; }
@@ -9703,8 +9703,41 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 #intro{
-  text-align: center;
-  margin-left: 300px;
+  align-items: center;
+  margin-left: 200px;
+  font-size: 60px;
 }
-.rounded-circle{  
+#intro a{
+  margin-left: 0px;
+}
+#about-section{
+  margin-top: -150px;
+}
+/* *{
+  background-color: whitesmoke;
+  color: black;
+} */
+.title-s{
+  font-size: 20px;
+  color:#fff;
+}
+#contact-section{
+  margin-top:-150px;
+}
+#navbarcontainer{
+  display: flex;
+  justify-content: space-between;
+}
+.big-4 {
+  font-size: 42px;
+  margin: 0 auto;
+  transform: scaleX(1.2); /* Stretch the text by 1.2 times */ }
+#aboutmeinfo{
+  line-height: 50px;
+}
+#aboutmelist{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  gap:50px;
 }
